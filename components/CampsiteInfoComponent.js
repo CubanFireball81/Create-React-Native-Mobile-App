@@ -8,7 +8,6 @@ import { postFavorite, postComment } from '../redux/ActionCreators';
 import * as Animatable from 'react-native-animatable';
 
 
-
 const mapStateToProps = state => {
     return {
         campsites: state.campsites,
